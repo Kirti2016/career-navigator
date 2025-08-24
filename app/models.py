@@ -1,5 +1,8 @@
 from sqlalchemy import Column, Integer, String
 from .database import Base
+from sqlalchemy import Column, Integer, String, ForeignKey, Text
+from sqlalchemy.orm import relationship
+
 
 class User(Base):
     __tablename__ = "users"

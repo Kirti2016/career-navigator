@@ -15,3 +15,7 @@ python-multipart
 passlib[bcrypt]
 python-jose[cryptography]
 PyMuPDF
+
+gunicorn
+sqlalchemy
+
